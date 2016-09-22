@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<!-- Bootstrap styles -->
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+		<!-- our css styles file -->
+	    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	    <!-- shortcut icon will go here -->
+	    <link rel="shortcut icon" type="text/css" href="img/apt_icon.png">	
+
+	    <!-- mini carousel -->
+	    <link rel="stylesheet" type="text/css" href="css/jcarousel.responsive.css">
+
+	    <!-- Magnific Popup core CSS file -->
+		<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+
+	    <title>Tess Rental</title>
+
+	    <meta name="author" content="Thomas Phan, Marissa Ho, Laura McFarlane, and Brett Yamada">
+	    <meta class="this-neighborhood" name="author" content="lictonSprings">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<img class="logo" src="img/logo.png" alt="logo">
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="index.html">Home</a></li>
+					<li class="dropdown">
+					    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					    Neighborhoods <span class="caret"></span>
+					    </a>
+					    <ul class="dropdown-menu">
+					    	<li><a href="west-greenlake.html">West Green Lake</a></li>
+					    	<li><a href="east-greenlake.html">East Green Lake</a></li>
+					    	<li><a href="licton-springs.html">Licton Springs</a></li>
+					    	<li><a href="u-district.html">University District</a></li>
+					    	<li><a href="royal-crest.html">Downtown</a></li>
+					    </ul>
+					</li>
+					<li><a href="apply.html">Apply</a></li>
+				</ul>
+			</header>
+			<div class="content">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="main-pic" src="img/licton-springs/facade1.jpg" alt="Main picture of Licton Springs Apartment">
+					</div><!-- column -->
+					<div class="col-md-6">
+						<div class="map-container"></div>
+					</div><!-- column -->
+				</div> <!-- row -->
+				<div class="apt-container">
+					<div class="template apt-template">
+						<div class="row">
+							<div class="col-md-6 apt-info">
+								<h1 class="apt-name"></h1>
+								<ul>
+									<li><span class="apt-addr1"></span> <span class="apt-addr2"></span></li>
+									<li>Vacancies: <span class="apt-vacancies"></span></li>
+									<li>Bedrooms: <span class="apt-bedroom"></span></li>
+									<li>Units: <span class="apt-units"></span></li>
+									<li>Bath: <span class="apt-bath"></span></li>
+								</ul>
+							</div> <!-- column -->
+							<div class="col-md-6">
+								<p class="apt-description"></p>
+							</div> <!-- column -->
+						</div> <!-- row -->
+					</div> <!-- template -->
+				</div> <!-- container -->
+
+				<div class="jcarousel-wrapper">
+					<div class="jcarousel">
+						<div class="thing pic-container">
+						</div> <!-- pic container -->
+		            </div> <!-- jcarousel -->
+		            <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+		            <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+		            <p class="jcarousel-pagination"></p>
+				</div> <!-- jcarousel-wrapper -->
+				
+				<figure class="template pic-template">
+					<a class="image-link" href=""><img class="pic" src="#" alt></a>
+					<figcaption class="caption"></figcaption>
+				</figure> <!-- pic template -->
+
+			</div> <!-- content -->
+			
+			<footer>
+				<p>
+					<b>&copy; Tessrental, LLC</b> | <b>Owner:</b> Tess Ramos <b>Phone:</b> 206-963-3388 <b>Email:</b> tessrental@yahoo.com
+				</p>
+			</footer>
+		</div> <!-- container -->
+
+		<!-- jQuery script -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		
+		<!-- Boostrap script -->
+	    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+	    <!-- neighborhood objects -->
+	    <script type="text/javascript" src="js/neighborhoods.js"></script>
+
+	    <!-- render script -->
+	    <script type="text/javascript" src="js/aptRender.js"></script>
+
+	    <!-- jcarousel script -->
+	    <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+
+	    <!-- jcarousel responsive script -->
+        <script type="text/javascript" src="js/jcarousel.responsive.js"></script>
+
+        <!-- Google Maps Script -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_iXINkwX8A2VggnEyt2pS3kKZRAkFb6o&amp;sensor=false"></script>  
+
+		<!-- Magnific Popup core JS file -->
+		<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>        
+	</body>
+</html>

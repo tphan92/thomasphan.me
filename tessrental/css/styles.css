@@ -1,0 +1,362 @@
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Federo|Amaranth:400,400italic,700,700italic|Yanone+Kaffeesatz:400,200,300,700|Oregano:400,400italic);
+@import url(reset.css);
+
+p {
+	padding-top: 10px;
+}
+
+body {
+	background-image: url(../img/neighboring-area/greenlake6.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	font-family: 'Federo', sans-serif;
+	font-size: 18px;
+}
+
+header {
+
+}
+
+.logo {
+	width: 300px;
+}
+
+.container {
+	background-color: rgba(255,255,255, 0.8);
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 75%;
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+ 	border-radius: 5px;
+ 	border: 1px solid #999;
+ 	box-shadow: 4px 4px 4px #999;
+}
+
+.slide {
+	margin: 0 auto;
+}
+
+header .nav {
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+a,
+a:link,
+a:active {
+	color: #20815D;
+	font-weight: bold;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+a:hover {
+	color: #00AF65;
+	text-decoration: none;
+}
+
+header .nav li { /* Adds transitions for hover over navigation bars*/
+	background-color: #218359;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.nav-bar li:hover {
+	background-color: #218359;
+	opacity: 0.9;
+}
+
+.nav-pills li.active a,	/* Active tag */
+.nav-pills li.active a:hover,
+.nav-pills li.active a:focus {
+	background-color: rgb(0, 166, 122);
+	border-bottom: none;
+}
+
+.nav-pills li a {
+	border-radius: 0;
+}
+
+header .nav a { /* Adds transitions for hover over nav bar links*/
+	display: inline-block;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+	font-family: 'Amaranth', arial;
+	font-size: 130%;
+	background-color: #218359;
+	text-align: center;
+	border-radius: none;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.nav .caret {
+	border-top-color: #FFF;
+	border-bottom-color: #FFF;
+}
+
+.nav .caret:hover {
+	border-top-color: rgb(0, 166, 122);
+	border-bottom-color: rgb(0, 166, 122);
+}
+
+.nav li a {	/* drop-down menu lists*/
+	display: block;
+	position: relative;
+}
+
+.nav .open a,
+.nav .open a:focus {
+	background-color: #35D699;	
+}
+
+header .dropdown-menu { /* drop-down menu takes up full area*/
+	background-color: rgb(0,139,116);
+	padding: 0px;
+	opacity: 0.9;
+	top: auto;
+	left: auto;
+	width: 400px;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration:none;
+}
+
+header .nav a:hover {
+	background-color: #00AF65;
+	border-bottom: none;
+}
+
+.content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	background-color: rgba(0.0);
+}
+
+h1 {
+	font-size: 150%;
+	font-weight: 600;
+}
+
+.main-pic {
+	border: 1px solid #000;
+	border-radius: 3px;
+	float: left;
+	height: 225px;
+	float: right;
+}
+
+.apt-description {
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+.apt-container {
+	clear: both;
+}
+
+.apt-info {
+	margin-top: 10px;
+	border-right: 1px solid #999;
+	text-align: right;
+}
+
+.apt-description {
+	max-width: 400px;
+}
+
+.item img {
+	border-radius: 20px;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.map-container {
+	border: 1px solid #000;
+	width: 100%;
+	height: 225px;
+	max-width: 400px;
+}
+
+.steps {
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.steps li {
+    display: block;
+    margin-bottom: .5em;
+    margin-left: 2em;
+}
+
+.steps li:before {
+    display: inline-block;
+    content: counter(item) ") ";
+    counter-increment: item;
+    width: 2em;
+    margin-left: -2em;
+}
+
+.pic-template {
+	position: relative;
+}
+
+figcaption {
+	text-align: center;
+	position: absolute;
+	padding: 5px;
+	left: 0;
+	bottom: 0;
+	width: inherit;
+	display: block;
+	color: #FFF;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.pic {
+	display: block;
+	width: 100%;
+	border: 1px solid gray;
+	opacity: 0.75;
+	position: relative;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pic:hover {
+	opacity: 1.0;
+}
+
+
+footer {
+
+}
+
+footer p {
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+p b {
+	font-weight: bold;
+}
+
+b {
+	font-weight: bold;
+	color: #007241;
+}
+
+.carousel {
+	height: auto;
+}
+
+.left.carousel-control {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.right.carousel-control {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.container .content .app-logo {
+	border: 2px solid #000;
+	opacity: 0.5;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.container .content .app-logo:hover {
+	opacity: 1.0;
+}
+
+footer b {
+	color: #007241;
+}
+
+@media screen and (max-width: 992px) {
+	.apt-info {
+		margin-top: 10px;
+		border-right: 0px;
+		text-align: center;
+	}
+
+	.apt-description {
+		text-align: center;
+	}
+
+	.main-pic {
+		width: 100%;
+		height: auto;
+	}
+
+	header .dropdown-menu { /* drop-down menu takes up full area*/
+		width: 300px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	.carousel {
+		display: none;
+	}
+
+	header .dropdown-menu { /* drop-down menu takes up full area*/
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 501px) {
+	.logo {
+		width: 150px;
+	}
+
+	header .dropdown-menu { /* drop-down menu takes up full area*/
+		width: 100px;
+	}
+}
+
+
+.template {
+	display: none;
+}
