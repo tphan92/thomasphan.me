@@ -2188,7 +2188,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0;
 		padding-left: 1em;
 	}
 
@@ -3137,7 +3137,7 @@
 		/* List */
 
 			ul.actions {
-				margin: 0 0 2em 0;
+				margin: 0px;
 			}
 
 				ul.actions li {
