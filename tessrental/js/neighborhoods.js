@@ -44,7 +44,8 @@ var downtown = {
 	]
 }
 
-var lictonSprings = {
+
+/*var lictonSprings = {
 	"name": "Licton Springs Apartment Complex",
 	"units": 6,
 	"vacancies": "Unit 9208 Available in February, 2014",
@@ -64,7 +65,7 @@ var lictonSprings = {
 			{thumb: 'img/licton-springs/thumbs/garden_entry.jpg', caption: 'Garden Entry',
 			image: 'img/licton-springs/garden_entry.jpg'}
 	]
-}
+}*/
 
 var uDistrict = {
 	"name": "University District Apartment Complex",
@@ -77,21 +78,7 @@ var uDistrict = {
 	"description": "Located within walking distance of the University of Washington, this charming U-District apartment building is made of 6 3 bedroom / 1 bath units. This apartment features on-site parking, hardwood floors, common areas, and breakfast counters in the kitchens.",
 	"lat": 47.666817,
 	"long": -122.315999,
-	"pic": [{thumb: 'img/u-district/thumbs/facade2.jpg', caption: 'Exterior Close Up',
-			image: 'img/u-district/facade2.jpg'},
-			{thumb: 'img/u-district/thumbs/parking.jpg', caption: 'On-site Parking',
-			image: 'img/u-district/parking.jpg'},
-			{thumb: 'img/u-district/thumbs/dining_room.jpg', caption: 'Dining Room',
-			image: 'img/u-district/dining_room.jpg'},
-			{thumb: 'img/u-district/thumbs/living_room.jpg', caption: 'Living Room',
-			image: 'img/u-district/living_room.jpg'},
-			{thumb: 'img/u-district/thumbs/main.jpg', caption: 'Common Area',
-			image: 'img/u-district/main.jpg'},
-			{thumb: 'img/u-district/thumbs/kitchen.jpg', caption: 'Kitchen',
-			image: 'img/u-district/kitchen.jpg'},
-			{thumb: 'img/u-district/thumbs/kitchen2.jpg', caption: 'Kitchen',
-			image: 'img/u-district/kitchen2.jpg'},
-			{thumb: 'img/u-district/unit-a/thumbs/bedroom_floor.jpg', caption: 'Unit A - Bedroom',
+	"pic": [{thumb: 'img/u-district/unit-a/thumbs/bedroom_floor.jpg', caption: 'Unit A - Bedroom',
 			image: 'img/u-district/unit-a/bedroom_floor.jpg'},
 			{thumb: 'img/u-district/unit-a/thumbs/bedroom_floor2.jpg', caption: 'Unit A - Bedroom',
 			image: 'img/u-district/unit-a/bedroom_floor2.jpg'},
@@ -99,16 +86,10 @@ var uDistrict = {
 			image: 'img/u-district/unit-a/kitchen_unit_a.jpg'},
 			{thumb: 'img/u-district/unit-a/thumbs/main.jpg', caption: 'Unit A - Kitchen',
 			image: 'img/u-district/unit-a/main.jpg'},
-			{thumb: 'img/u-district/thumbs/kitchen_unit_b.jpg', caption: 'Unit B Kitchen',
-			image: 'img/u-district/kitchen_unit_b.jpg'},
-			{thumb: 'img/u-district/thumbs/kitchen_unit_c.jpg', caption: 'Unit C Kitchen',
-			image: 'img/u-district/kitchen_unit_c.jpg'},
 			{thumb: 'img/u-district/unit-a/thumbs/bathroom.jpg', caption: 'Unit A - Bathroom',
 			image: 'img/u-district/unit-a/bathroom.jpg'},
 			{thumb: 'img/u-district/unit-a/thumbs/bathroom2.jpg', caption: 'Unit A - Bathroom',
-			image: 'img/u-district/unit-a/bathroom2.jpg'},
-			{thumb: 'img/u-district/thumbs/bedrooms.jpg', caption: 'Bedrooms',
-			image: 'img/u-district/bedrooms.jpg'}
+			image: 'img/u-district/unit-a/bathroom2.jpg'}
 	]
 }
 
@@ -151,18 +132,7 @@ var eastGreenlake = {
 	"description": "Located in the fabulous neighborhood of East Green Lake, this 4 unit apartment is right in the heart of Green Lake! Right across the street from Green Lake Park, half a block away from the public library and all within walking distance of delicious restaurants and coffee shops. These 1 bedroom, 1 bathroom units feature light walnut cabinets, granite countertops and stainless steel appliances.",
 	"lat": 47.681395,
 	"long": -122.325818,
-	"pic": [{thumb: 'img/east-greenlake/thumbs/facade_both2.jpg', caption: 'Exteriors of Apartments',
-			image: 'img/east-greenlake/facade_both2.jpg'},
-			{thumb: 'img/east-greenlake/thumbs/facade_both3.jpg', caption: 'Exteriors of Apartments',
-			image: 'img/east-greenlake/facade_both3.jpg'},
-			{thumb: 'img/east-greenlake/thumbs/facade1.jpg', caption: 'Exteriors of Apartment 7311-17',
-			image: 'img/east-greenlake/facade1.jpg'},
-			{thumb: 'img/east-greenlake/thumbs/facade2.jpg', caption: 'Exteriors of Apartments 7319-25',
-			image: 'img/east-greenlake/facade2.jpg'},
-			{thumb: 'img/east-greenlake/thumbs/garden_entry.jpg', caption: 'Front of Apartment 7311-17',
-			image: 'img/east-greenlake/garden_entry.jpg'},
-			{thumb: 'img/east-greenlake/thumbs/doors.jpg', caption: 'Front Doors of Apartment 7319-25',
-			image: 'img/east-greenlake/doors.jpg'},
+	"pic": [{image: 'img/east-greenlake/doors.jpg'},
 			{thumb: 'img/east-greenlake/thumbs/doors1.jpg', caption: 'Front of Apartment 7319',
 			image: 'img/east-greenlake/doors1.jpg'},
 			{thumb: 'img/east-greenlake/thumbs/wall_tenant_mural.jpg', caption: "Tenant's Mural",
@@ -179,10 +149,6 @@ var eastGreenlake = {
 			image: 'img/east-greenlake/bedroom3.jpg'},
 			{thumb: 'img/east-greenlake/thumbs/bedroom4.jpg', caption: 'Bedroom',
 			image: 'img/east-greenlake/bedroom4.jpg'},
-			{thumb: 'img/east-greenlake/thumbs/kitchen1.jpg', caption: 'Kitchen',
-			image: 'img/east-greenlake/kitchen1.jpg'},
-			{thumb: 'img/east-greenlake/thumbs/kitchen4.jpg', caption: 'kitchen',
-			image: 'img/east-greenlake/kitchen4.jpg'},
 			{thumb: 'img/east-greenlake/thumbs/bathroom1.jpg', caption: 'Bathroom',
 			image: 'img/east-greenlake/bathroom1.jpg'},
 			{thumb: 'img/east-greenlake/thumbs/laundry.jpg', caption: 'Laundry',
