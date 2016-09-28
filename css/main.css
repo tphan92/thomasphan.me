@@ -3193,3 +3193,16 @@
 .skills-img {
 	width: 100%;
 }
+
+.fa {
+	color: #49bf9d;
+	margin-left: 25%;
+	display: block;
+}
+
+.slides {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+}
