@@ -3213,3 +3213,9 @@
 	margin: 0 auto;
 	padding-bottom: 20px;
 }
+
+.dates {
+	font-style: italic;
+	font-weight: bold;
+	color: #999999;
+}
